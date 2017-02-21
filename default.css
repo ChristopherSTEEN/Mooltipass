@@ -1,0 +1,107 @@
+@media screen and (max-width: 320px)
+{
+  body {
+    font-size: 12px
+  }
+
+  div {
+    margin-bottom: 10px;
+    padding: 3px
+  }
+
+  .title {
+    font-size: 14px
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 767px)
+{
+  body {
+    font-size: 14px
+  }
+
+  div {
+    margin-bottom: 15px;
+    padding: 5px
+  }
+
+  .title {
+    font-size: 16px
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px)
+{
+  body {
+    font-size: 16px
+  }
+
+  div {
+    margin-bottom: 20px;
+    padding: 7px
+  }
+
+  .title {
+    font-size: 18px
+  }
+}
+
+@media screen and (min-width: 1200px)
+{
+  body {
+    font-size: 18px
+  }
+
+  div {
+    margin-bottom: 25px;
+    padding: 10px
+  }
+
+  .title {
+    font-size: 20px
+  }
+}
+
+.about {
+
+}
+
+body {
+  margin: 0px;
+}
+
+div {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  box-shadow: 5px 5px 1px black
+}
+
+.header {
+  width: 100%
+}
+
+.opimg {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block
+}
+
+.stupvid {
+  border: none;
+  box-shadow: none
+}
+
+.title, .question {
+  text-align: center;
+  font-weight: bold
+}
+
+.vid {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block
+}
